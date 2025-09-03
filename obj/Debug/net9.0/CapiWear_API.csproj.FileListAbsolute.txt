@@ -130,3 +130,4 @@ C:\Users\lucas\Documents\Projetos\c#\CapiWear-Backend\CapiWear_API\obj\Debug\net
 C:\Users\lucas\Documents\Projetos\c#\CapiWear-Backend\CapiWear_API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\lucas\Documents\Projetos\c#\CapiWear-Backend\CapiWear_API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\lucas\Documents\Projetos\c#\CapiWear-Backend\CapiWear_API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lucas\Documents\Projetos\c#\CapiWear-Backend\CapiWear_API\obj\Debug\net9.0\CapiWear_API.sourcelink.json
