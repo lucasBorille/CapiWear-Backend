@@ -3281,19 +3281,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+    "/Users/talyssondecol/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Documents\\Projetos\\c#\\CapiWear-Backend\\CapiWear_API\\CapiWear_API.csproj",
+      "projectUniqueName": "/Users/talyssondecol/Desktop/CapiWear-Backend/CapiWear_API.csproj",
       "projectName": "CapiWear_API",
-      "projectPath": "C:\\Users\\lucas\\Documents\\Projetos\\c#\\CapiWear-Backend\\CapiWear_API\\CapiWear_API.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Documents\\Projetos\\c#\\CapiWear-Backend\\CapiWear_API\\obj\\",
+      "projectPath": "/Users/talyssondecol/Desktop/CapiWear-Backend/CapiWear_API.csproj",
+      "packagesPath": "/Users/talyssondecol/.nuget/packages/",
+      "outputPath": "/Users/talyssondecol/Desktop/CapiWear-Backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/talyssondecol/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3367,7 +3367,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

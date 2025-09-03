@@ -1,0 +1,58 @@
+# Build outputs
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# DLLs, executáveis e símbolos
+*.dll
+*.exe
+*.pdb
+
+# IDEs e configs locais
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Arquivos de cache do MSBuild/NuGet
+project.assets.json
+project.nuget.cache
+*.cache
+*.g.props
+*.g.targets
+
+# Rider / JetBrains
+*.sln.iml
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Tye
+.tye/
+
+# Outros temporários
+*.tmp
+*.bak
+*.swp
+*.pidb
+*.svclog
+
+node_modules/
+dist/
+build/
