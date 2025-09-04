@@ -28,7 +28,7 @@ namespace CapiWear_API.Services
             var emailNorm = dto.Email.Trim().ToLowerInvariant();
             var existing = await _repo.GetByEmailAsync(emailNorm);
             if (existing is not null)
-                throw new InvalidOperationException("Email já cadastrado.");
+                throw new InvalidOperationException("Email já utilizado.");
 
             var now = DateTime.UtcNow;
             var user = new User
