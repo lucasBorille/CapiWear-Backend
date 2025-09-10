@@ -56,3 +56,7 @@ TestResult*/
 node_modules/
 dist/
 build/
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+appsettings.json

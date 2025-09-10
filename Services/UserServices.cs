@@ -52,7 +52,6 @@ namespace CapiWear_API.Services
 
             var emailNorm = dto.Email.Trim().ToLowerInvariant();
 
-            // checa conflito de email
             var sameEmail = await _repo.GetByEmailAsync(emailNorm);
             if (sameEmail is not null && sameEmail.Id != id)
                 throw new InvalidOperationException("Email já está em uso por outro usuário.");
@@ -80,7 +79,6 @@ namespace CapiWear_API.Services
             UpdatedAt = u.UpdatedAt
         };
 
-        // Hash simples (troque por BCrypt/Argon2 em prod)
         private static string Hash(string value)
         {
             using var sha = SHA256.Create();

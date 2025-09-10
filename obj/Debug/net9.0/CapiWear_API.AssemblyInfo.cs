@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapiWear_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0a0746a4b204fbccab419455178c9dd9e4a6b6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cabf0c0103a5626830578a30e590d3d18d3156ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapiWear_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapiWear_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
