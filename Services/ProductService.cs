@@ -27,6 +27,8 @@ namespace CapiWear_API.Services
                 Name = product.Name,
                 Description = product.Description,
                 Price = product.Price,
+                Category_id = product.CategoryId ?? 0,
+                ImageUrl = product.ImgUrl,
             };
         }
 
@@ -40,6 +42,8 @@ namespace CapiWear_API.Services
                 Name = product.Name,
                 Description = product.Description,
                 Price = product.Price,
+                Category_id = product.CategoryId ?? 0,
+                ImageUrl = product.ImgUrl,
             });
         }
 
@@ -50,6 +54,8 @@ namespace CapiWear_API.Services
                 Name = productDto.Name,
                 Description = productDto.Description,
                 Price = productDto.Price,
+                CategoryId = productDto.Category_id,
+                ImgUrl = productDto.ImageUrl,
             };
             await _productRepository.AddProductAsync(product);
         }
@@ -62,6 +68,8 @@ namespace CapiWear_API.Services
             existingProduct.Name = productDto.Name;
             existingProduct.Description = productDto.Description;
             existingProduct.Price = productDto.Price;
+            existingProduct.CategoryId = productDto.Category_id;
+            existingProduct.ImgUrl = productDto.ImageUrl;
 
             await _productRepository.UpdateProductAsync(existingProduct);
         }
